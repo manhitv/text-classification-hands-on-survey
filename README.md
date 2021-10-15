@@ -46,8 +46,8 @@ Below are examples of some techniques.
 * *Tokenization*
 
     Tokenization is the process of breaking down a stream of text into words, phrases, symbols, or any other meaningful elements called tokens. The main goal of this step is to extract individual words in a sentence.
-        + You could use spaCy (or gensim, nltk). Recommend to use spaCy because it's one of the most versatile and widely used libraries in NLP.
-        + You could also use tf.text with BERTTokenizer for this tasks (and more - full pipeline in tensorflow)
+    + You could use spaCy (or gensim, nltk). Recommend to use spaCy because it's one of the most versatile and widely used libraries in NLP.
+    + You could also use tf.text with BERTTokenizer for this tasks (and more - full pipeline in tensorflow)
 * *Stop words*
 
     In spaCy, you could get the complete list via: ```from spacy.lang.en.stop_words import STOP_WORDS```
